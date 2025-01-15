@@ -1,0 +1,28 @@
+div img {
+  height: 200px;
+  width: 200px;
+}
+
+.pokemonCard {
+  height: 250px;
+  width: 220px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #61a0c7;
+
+}
+
+.pokemonCard:hover {
+  cursor: pointer;
+  background-color: #85c4eb;
+}
+
+.pokemonGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 10px;
+
+}
